@@ -13,4 +13,7 @@ public class Node {
         this.right= right;
         this.left = left;
     }
+    public boolean isLeaf(){
+        return this.right == null && this.left== null;
+    }
 }
